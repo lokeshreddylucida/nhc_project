@@ -6,7 +6,7 @@ function App() {
     return (
         <div>
             <Header />
-            <div style={{ width: '100%', marginLeft: '30%', marginRight: '30%' }}>
+            <div className="contentForm">
                 <LoginForm />
             </div>
         </div>
