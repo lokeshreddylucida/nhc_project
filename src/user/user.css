@@ -11,9 +11,10 @@
     border: 1px solid #fff;
 }
 
-.leftSideClass, .rightSideClass {
+.leftSideClass,
+.rightSideClass {
     width: 48%;
-    height: 10rem;
+    height: 8rem;
 }
 
 .leftSideClass {
@@ -24,7 +25,8 @@
     float: right;
 }
 
-.imgDivClass, .detailsDivClass {
+.imgDivClass,
+.detailsDivClass {
     height: 10rem;
     margin-left: 1rem;
 }
@@ -308,39 +310,27 @@ a.sort-by:after {
 }
 
 .barsClassName {
-    display:none;
+    display: none;
 }
 
-.topnav{
-    margin-left:10rem;
+.topnav {
+    margin-left: 10rem;
 }
 
 @media screen and (max-width: 600px) {
     .topnav {
-        display: none;
-    }
-
-    .topNavRes {
-        display: block;
-        height: auto;
-        min-height: 10rem;
-        overflow: hidden;
-        width: 9rem;
-        margin-left:8rem;
-        float: none;
+        margin-left: 13rem;
+        width: 60rem;
+        clear: both;
     }
 
     .headerDivClass {
         width: 60rem;
-        height: 10rem;
+        height: 8rem;
     }
 
     .headerDiv1Class {
         width: 51rem;
-    }
-
-    .barsClassName {
-        display: block;
     }
 
     .loginFromClass {
@@ -371,21 +361,23 @@ a.sort-by:after {
     #footerDiv {
         padding-left: 50%;
     }
+
+    .rightSideClass {
+        float: left;
+    }
+
+    .leftSideClass {
+        height: 8rem;
+        width: 60rem;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
-    .topnav {
-        display: none;
-    }
 
-    .topNavRes {
-        display: block;
-        height: auto;
-        min-height: 10rem;
-        overflow: hidden;
-        width: 9rem;
-        margin-left: 8rem;
-        float: none;
+    .topnav {
+        margin-left: 13rem;
+        width: 60rem;
+        clear: both;
     }
 
     #footerDiv {
@@ -394,15 +386,11 @@ a.sort-by:after {
 
     .headerDivClass {
         width: 60rem;
-        height: 10rem;
+        height: 8rem;
     }
 
     .headerDiv1Class {
-        width:51rem;
-    }
-
-    .barsClassName {
-        display: block;
+        width: 51rem;
     }
 
     .loginFromClass {
@@ -433,16 +421,65 @@ a.sort-by:after {
         padding-right: 20px;
         min-width: 7rem;
     }
+
+    .rightSideClass {
+        float: left;
+    }
+
+    .leftSideClass {
+        height: 8rem;
+        width: 60rem;
+    }
 }
 
 @media screen and (min-width: 750px) and (max-width: 1050px) {
     thead {
         font-size: initial;
     }
+
+    .rightSideClass {
+        float: left;
+    }
+
+    .headerDivClass {
+        width: 60rem;
+        height: 8rem;
+    }
+
+    .leftSideClass {
+        height: 8rem;
+        width: 60rem;
+    }
+
+    .topnav {
+        margin-left: 13rem;
+        width: 60rem;
+        clear: both;
+    }
 }
 
 @media screen and (min-width: 539px) and (max-width:720px) {
     #footerDiv {
         padding-left: 30%;
+    }
+
+    .rightSideClass {
+        float: left;
+    }
+
+    .headerDivClass {
+        width: 60rem;
+        height: 8rem;
+    }
+
+    .leftSideClass {
+        height: 8rem;
+        width: 60rem;
+    }
+
+    .topnav {
+        margin-left: 13rem;
+        width: 60rem;
+        clear: both;
     }
 }
