@@ -1,7 +1,8 @@
 import './App.css';
+import SideBar from './sideBar/sidebar';
 //import Header from './login/header';
 //import LoginForm from './login/loginForm';
-import UserForm from './user/userForm';
+//import UserForm from './user/userForm';
 
 function App() {
     return (
@@ -10,8 +11,9 @@ function App() {
             <div className="contentForm">
                 <LoginForm />
             </div>
-            */}
-            <UserForm />
+            
+            <UserForm />*/}
+            <SideBar />
         </div>
     );
 }
