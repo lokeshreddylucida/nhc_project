@@ -19,6 +19,7 @@ import {
     Routes,
     Outlet
 } from "react-router-dom";
+import UserForm from "../user/userForm";
 
 function Dashboard() {
     return (
@@ -63,11 +64,12 @@ function SideBar() {
                 <div className="container">
                     <Routes>
                             <Route path="/" element={<Dashboard />} />
-                            <Route path="/calendar" element={<Calendar />}>
+                            <Route path="/calendar" element={<Calendar />}>                            
                                 {/* <Route path=":topicId" element={<Topic />}>
                                 <Route path=":resourceId" element={<Resource />} />
                             </Route>*/}
-                        </Route>
+                            </Route>
+                            <Route path="/customers" element={<UserForm />}/>
                     </Routes>
                         {/*<p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -125,7 +127,7 @@ function SideBar() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="customers">
                             <span className="icon"><img src={customerIcon} style={{ width: '24px', height: '24px', marginBottom: '-8px' }} alt="Customers" /></span>
                             <span className="item">Customers</span>
                         </a>
